@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styleMovie.css">
+        <link rel="stylesheet" type="text/css" href="/css/star-rating-svg.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="/js/jquery.star-rating-svg.js"></script>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <!-- Main header -->
+            <header class="main-header">
+                <a href="/index.html" class="logo">
+                    <img src="/img/iconPlay.png">
+                </a>
+                <nav class="main-header-right">
+                  <a href="/index.html">Home</a>
+                  <a href="/about.html">About</a>
+                  <a</a>
+                </nav>
+            </header>
+            <!-- Content 0 -->
+            <article class="content0">
+                <img class="imgMovie" src="/img/movieInterstellar.jpg">
+            </article>
+            <!-- Content 1 -->
+            <article class="content1">
+                <article>
+                <p class="textMovie">
+                    Earth's future has been riddled by disasters, famines, and droughts. 
+                    There is only one way to ensure mankind's survival: Interstellar travel. 
+                    A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.
+                </p>
+                </article>
+                <article>
+                    <p class="textMovie"> Genres: Action | Adventure | Comedy | Horror | Sci-Fi | Thriller </p>
+                </article>
+            </article>
+            <!-- Content 2 -->
+            <article class="content2">
+                <div class="my-rating"></div>
+                <script>
+                $(".my-rating").starRating({
+                    starSize: 60,
+                    callback: function(currentRating, $el){
+                        // make a server call here
+                    }
+                });
+                </script>
+            </article>
+            <!-- Content 3 -->
+            <article class="content3">
+                <form id="myForm"> 
+                    Name: <input type="text" name="name" /> 
+                    Comment: <textarea name="comment"></textarea> 
+                    <input type="submit" value="Submit Comment" /> 
+                </form>
+            </article>
+            <!-- Main footer -->
+            <footer class="main-footer"> Made by Ambushcat</footer>
+        </div>
+    </body>
+</html> 
