@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/styleMovie.css" />
+    <link rel="stylesheet" type="text/css" href="/css/star-rating-svg.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.star-rating-svg.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Main header -->
+      <header class="main-header">
+        <a href="/index.html" class="logo">
+          <img src="/img/iconPlay.png" />
+        </a>
+        <nav class="main-header-right">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="addMovie.html">Add movie</a>
+        </nav>
+      </header>
+      <!-- Content 0 -->
+      <article class="content0">
+        <img class="imgMovie" src="/img/movieInception.jpeg" />
+      </article>
+      <!-- Content 1 -->
+      <article class="content1">
+        <h1 class="textHeadForm">Add a new movie</h1>
+        <article>
+          <form class="formAddMovie">
+            <label for="customer_name">Name </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+            />
+            <label for="email_address">Email </label>
+            <input type="email" name="email_address" id="email_address" />
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" maxlength="500"></textarea>
+            <button>Submit</button>
+          </form>
+        </article>
+        <article>
+          <p class="textMovie">
+            Genres: Action | Adventure | Sci-Fi | Thriller
+          </p>
+        </article>
+      </article>
+      <!-- Content 2 -->
+      <article class="content2"></article>
+      <!-- Content 3 -->
+      <article class="content3"></article>
+      <!-- Main footer -->
+      <footer class="main-footer">Made by Tristan Schuring</footer>
+    </div>
+  </body>
+</html>
