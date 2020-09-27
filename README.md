@@ -15,7 +15,5 @@ Links to view webpage and source
 
 Resize the webpage to view responsive grid layouts
 
-Hover over the images and click on them to see more information
-
 ## License
 [GNU GPLv3 ](https://choosealicense.com/licenses/gpl-3.0/)
