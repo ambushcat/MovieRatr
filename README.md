@@ -6,6 +6,9 @@ Fully responsive website to rate, add and get information about movies.
 
 Links to view webpage and source
 
+[View webpage](https://movieratr-week-3.glitch.me)
+
+[View source](https://glitch.com/edit/#!/movieratr-week-3)
 
 
 ## Notes
