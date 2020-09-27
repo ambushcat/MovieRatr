@@ -19,6 +19,7 @@ Resize the webpage to view responsive grid layouts
 [GNU GPLv3 ](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Screenshots
+<h1 align="center">Desktop</p>
 <p align="center">
   <img src="https://i.ibb.co/tqvYZjb/firefox-Hr-Lrq1e8-Oi.png">
 </p>
