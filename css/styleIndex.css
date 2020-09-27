@@ -73,6 +73,13 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top: 1px solid transparent;
+    background: #eee;
+}
+
+.imgMovie:hover {
+  background: #e1e1e1;
+  border-top: 10px solid #d0d0d0;
 }
 
 /* Main header */
