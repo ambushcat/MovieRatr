@@ -16,6 +16,11 @@ body {
     background-image: url("/img/gridDot.png");
     background-repeat: repeat-y repeat-x;
 }
+.main-header a .main-header {
+  display: grid;
+  align-items: center;
+  float:left;
+}
 
 .content1 {
   background-color: #f1f1f1;

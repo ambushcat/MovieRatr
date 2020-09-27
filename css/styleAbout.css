@@ -19,6 +19,12 @@ body {
     background-repeat: repeat-y repeat-x;
 }
 
+.main-header a .main-header {
+  display: grid;
+  align-items: center;
+  float:left;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;

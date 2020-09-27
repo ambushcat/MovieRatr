@@ -53,11 +53,22 @@
       </article>
       <!-- Content 3 -->
       <article class="content3">
-        <form id="formMovieRating">
-          Name: <input type="text" name="name" /> Comment:
-          <textarea name="comment"></textarea>
-          <input type="submit" value="Submit Comment" />
-        </form>
+        <form class="formMovieRating">
+            <label for="name">Name </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+            />
+            <label for="email_address">Email </label>
+            <input type="email" name="email_address" id="email_address" />
+            <label for="title">Title </label>
+            <input type="title" name="title" id="title" />
+            <label for="desc">Comment</label>
+            <textarea name="desc" id="desc" maxlength="500"></textarea>
+            <button>Submit</button>
+          </form>
       </article>
       <!-- Main footer -->
       <footer class="main-footer">Made by Tristan Schuring</footer>
