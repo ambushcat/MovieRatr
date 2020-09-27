@@ -22,3 +22,6 @@ Resize the webpage to view responsive grid layouts
 
 ![Desktop](https://i.ibb.co/tqvYZjb/firefox-Hr-Lrq1e8-Oi.png)
 ![Mobile](https://i.ibb.co/pf8mpHz/firefox-ah-ZS9-Xhez-Z.png)
+<p align="center">
+  <img src="https://i.ibb.co/tqvYZjb/firefox-Hr-Lrq1e8-Oi.png">
+</p>
