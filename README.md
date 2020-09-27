@@ -23,6 +23,7 @@ Resize the webpage to view responsive grid layouts
   <img src="https://i.ibb.co/tqvYZjb/firefox-Hr-Lrq1e8-Oi.png">
 </p>
 
+<h1 align="center">Mobile</p>
 <p align="center">
-  <img src="https://i.ibb.co/tqvYZjb/firefox-Hr-Lrq1e8-Oi.png">
+  <img src="https://i.ibb.co/pf8mpHz/firefox-ah-ZS9-Xhez-Z.png">
 </p>
