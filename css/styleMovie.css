@@ -19,6 +19,12 @@ body {
     background-repeat: repeat-y repeat-x;
 }
 
+.main-header a .main-header {
+  display: grid;
+  align-items: center;
+  float:left;
+}
+
 .textHeadForm {
   text-align: center;
 }
@@ -49,6 +55,27 @@ body {
     padding: 1em;
   }
 
+.formMovieRating {
+  display: grid;
+  grid-template-columns: [labels] auto [controls] 1fr;
+  grid-auto-flow: row;
+  grid-gap: .8em;
+  padding: 1em;
+}
+
+.formMovieRating > label  {
+    grid-column: labels;
+    grid-row: auto;
+  }
+  .formMovieRating > input,
+  .formMovieRating > textarea,
+  .formMovieRating > button {
+    grid-column: controls;
+    grid-row: auto;
+    border: none;
+    padding: 1em;
+  }
+
 .textMovie {
   padding-left: 10px;
   padding-right: 10px;
@@ -64,7 +91,7 @@ body {
 .content1 {
   display: grid;
   float: left;
-    background-color: #f1f1f1;   
+  background-color: #f1f1f1;
 }
 
 .content2 {
@@ -74,9 +101,8 @@ body {
 
 .content3 {
     display: grid;
-    justify-items: center;
-    background-color: #f1f1f1;
-    width: 100px;   
+    float: left;
+    background-color: #f1f1f1;  
 }
 
 
