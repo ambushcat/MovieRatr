@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="/css/styleMovie.css">
-        <link rel="stylesheet" type="text/css" href="/css/star-rating-svg.css">
-        <script src="/js/jquery.js"></script>
-        <script src="/js/jquery.star-rating-svg.js"></script>
-        
-    </head>
-    <body>
-        <div class="wrapper">
-            <!-- Main header -->
-            <header class="main-header">
-                <a href="/index.html" class="logo">
-                    <img src="/img/iconPlay.png">
-                    
-                </a>
-                <nav class="main-header-right">
-                  <a href="/index.html">Home</a>
-                  <a href="/about.html">About</a>
-                  <a></a>
-                </nav>
-            </header>
-            <!-- Content 0 -->
-            <article class="content0">
-                <img class="imgMovie" src="/img/movieSharknado.jpg">
-            </article>
-            <!-- Content 1 -->
-            <article class="content1">
-                <article>
-                    <p class="textMovie">Against all logic and the laws of nature, an unprecedented hurricane off the coast of Mexico rips out a ravenous shiver of sharks, making its way towards southern California. As the freakish meteorological phenomenon brings violent tempests and towering, shark-infested tidal waves, the former surfing champion and Santa Monica Pier bar-owner, Finley "Fin" Shepard, embarks on a peril-laden journey to Beverly Hills, fearing for the life of his estranged wife, April, and his teenage daughter, Candice. 
-                        Now, Fin; his friend, Baz; barmaid, Nova, and his regular customer, George, must fight tooth and nail to stay alive, as batch after batch of the flying oceanic predators rains down on the unsuspecting Angelenos, gobbling down everything in their path. 
-                        Who can stand in the way of the mighty Sharknado?
-                    </p>
-                </article>                
-                <article>
-                    <p class="textMovie"> Genres: Action | Adventure | Comedy | Horror | Sci-Fi | Thriller </p>
-                </article>
-            </article>
-            <!-- Content 2 -->
-            <article class="content2">
-                <div class="my-rating"></div>
-                <script>
-                $(".my-rating").starRating({
-                    starSize: 60,
-                    callback: function(currentRating, $el){
-                        // make a server call here
-                    }
-                });
-                </script>
-            </article>
-            <!-- Content 3 -->
-            <article class="content3">
-                <form id="myForm"> 
-                    Name: <input type="text" name="name" /> 
-                    Comment: <textarea name="comment"></textarea> 
-                    <input type="submit" value="Submit Comment" /> 
-                </form>
-            </article>
-            <!-- Main footer -->
-            <footer class="main-footer"> Made by Tristan Schuring</footer>
-        </div>
-    </body>
-</html> 
+  <head>
+    <link rel="stylesheet" href="/css/styleMovie.css" />
+    <link rel="stylesheet" type="text/css" href="/css/star-rating-svg.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.star-rating-svg.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Main header -->
+      <header class="main-header">
+        <a href="/index.html" class="logo">
+          <img src="/img/iconPlay.png" />
+        </a>
+        <nav class="main-header-right">
+          <a href="/index.html">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/addMovie.html">Add movie</a>
+        </nav>
+      </header>
+      <!-- Content 0 -->
+      <article class="content0">
+        <img class="imgMovie" src="/img/movieSharknado.jpg" />
+      </article>
+      <!-- Content 1 -->
+      <article class="content1">
+        <article>
+          <p class="textMovie">
+            Against all logic and the laws of nature, an unprecedented hurricane
+            off the coast of Mexico rips out a ravenous shiver of sharks, making
+            its way towards southern California. As the freakish meteorological
+            phenomenon brings violent tempests and towering, shark-infested
+            tidal waves, the former surfing champion and Santa Monica Pier
+            bar-owner, Finley "Fin" Shepard, embarks on a peril-laden journey to
+            Beverly Hills, fearing for the life of his estranged wife, April,
+            and his teenage daughter, Candice. Now, Fin; his friend, Baz;
+            barmaid, Nova, and his regular customer, George, must fight tooth
+            and nail to stay alive, as batch after batch of the flying oceanic
+            predators rains down on the unsuspecting Angelenos, gobbling down
+            everything in their path. Who can stand in the way of the mighty
+            Sharknado?
+          </p>
+        </article>
+        <article>
+          <p class="textMovie">
+            Genres: Action | Adventure | Comedy | Horror | Sci-Fi | Thriller
+          </p>
+        </article>
+      </article>
+      <!-- Content 2 -->
+      <article class="content2">
+        <div class="my-rating"></div>
+        <script>
+          $(".my-rating").starRating({
+            starSize: 60,
+            callback: function(currentRating, $el) {
+              // make a server call here
+            }
+          });
+        </script>
+      </article>
+      <!-- Content 3 -->
+      <article class="content3">
+        <form id="formMovieRating">
+          Name: <input type="text" name="name" /> Comment:
+          <textarea name="comment"></textarea>
+          <input type="submit" value="Submit Comment" />
+        </form>
+      </article>
+      <!-- Main footer -->
+      <footer class="main-footer">Made by Tristan Schuring</footer>
+    </div>
+  </body>
+</html>
