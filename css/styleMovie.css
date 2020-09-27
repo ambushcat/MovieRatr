@@ -15,7 +15,7 @@
 
 
 body {
-    background-image: url("img/gridDot.png");
+    background-image: url("/img/gridDot.png");
     background-repeat: repeat-y repeat-x;
 }
 .textMovie {
