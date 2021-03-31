@@ -1,4 +1,4 @@
-# MovieRatr (Week 3)
+# MovieRatr
 
 Fully responsive website to rate, add and get information about movies.
 
