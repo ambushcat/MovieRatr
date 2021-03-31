@@ -2,13 +2,12 @@
 
 Fully responsive website to rate, add and get information about movies.
 
-## Links
+## Webpage
 
-Links to view webpage and source
+Link to view webpage
 
 [View webpage](https://movieratr-week-3.glitch.me)
 
-[View source](https://glitch.com/edit/#!/movieratr-week-3)
 
 
 ## Notes
